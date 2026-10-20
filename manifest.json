@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "YT_DIGEST",
+  "name": "YT Digest",
   "version": "0.1.0",
-  "description": "getting out the whole context out of  youtube video",
+  "description": "Get the full context of a YouTube video from its transcript.",
   "content_scripts": [
     {
-      "matches": ["hhtps://www.youtube.com/watch*"],
-      "js": ["conent.js"]
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
       "run_at": "document_idle"
     },
     {
