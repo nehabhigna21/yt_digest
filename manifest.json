@@ -10,6 +10,14 @@
       "run_at": "document_idle"
     }
   ]
+},
+{
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["page.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
 }
       
   
