@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YT_DIGEST",
+  "version": "0.1.0",
+  "description": "getting out the whole context out of  youtube video",
+  "content_scripts": [
+    {
+      "matches": ["hhtps://www.youtube.com/watch*"],
+      "js": ["conent.js"]
+    }
+  ]
+}
+      
+  
